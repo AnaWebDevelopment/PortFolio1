@@ -1,0 +1,17 @@
+﻿
+
+    .parallax1 {
+        background: url('../img/chandelier.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 850px;
+        opacity: 0.6;
+    }
+
+    .parallax2 {
+        background: url('../img/chandelier2.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 300px;
+        opacity: 0.6;
+    }

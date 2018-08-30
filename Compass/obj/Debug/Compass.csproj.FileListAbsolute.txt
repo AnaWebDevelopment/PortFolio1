@@ -1,0 +1,9 @@
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\bin\Montepinar.dll.config
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\bin\Montepinar.dll
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\bin\Montepinar.pdb
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\obj\Debug\Compass.csprojResolveAssemblyReference.cache
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\obj\Debug\Compass.csproj.CoreCompileInputs.cache
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\obj\Debug\Montepinar.dll
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Compass\Compass\obj\Debug\Montepinar.pdb

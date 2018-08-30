@@ -1,0 +1,18 @@
+﻿
+
+    #galeria img{
+        width:75px;
+
+    }
+
+    .banner {
+        margin-left: 12%;
+    }
+
+    @media (max-width: 768px) {
+        .banner {
+            display: none;
+          
+            
+        }
+}

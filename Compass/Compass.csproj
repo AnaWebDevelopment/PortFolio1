@@ -1,0 +1,219 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3AE9BAC9-42D0-4271-8BA1-B442658E09BE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Montepinar</RootNamespace>
+    <AssemblyName>Montepinar</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="img\book.jpg" />
+    <Content Include="img\chandelier.jpg" />
+    <Content Include="img\chandelier2.jpg" />
+    <Content Include="img\favicon.jpg" />
+    <Content Include="img\gallery\advent.jpg" />
+    <Content Include="img\gallery\bedroom.jpg" />
+    <Content Include="img\gallery\bloom.jpg" />
+    <Content Include="img\gallery\box.jpg" />
+    <Content Include="img\gallery\candles.jpg" />
+    <Content Include="img\gallery\carafes.jpg" />
+    <Content Include="img\gallery\christmas.jpg" />
+    <Content Include="img\gallery\cup.jpg" />
+    <Content Include="img\gallery\furniture.jpg" />
+    <Content Include="img\gallery\hotel.jpg" />
+    <Content Include="img\gallery\inner-beauty.jpg" />
+    <Content Include="img\gallery\interior.jpg" />
+    <Content Include="img\gallery\interior40.jpg" />
+    <Content Include="img\gallery\interior-design-449009__340.jpg" />
+    <Content Include="img\gallery\jars.jpg" />
+    <Content Include="img\gallery\kitchen.jpg" />
+    <Content Include="img\gallery\lamp.jpg" />
+    <Content Include="img\gallery\lights.jpg" />
+    <Content Include="img\gallery\love.png" />
+    <Content Include="img\gallery\old-door.jpg" />
+    <Content Include="img\gallery\orchid.jpg" />
+    <Content Include="img\gallery\pumpkin.jpg" />
+    <Content Include="img\gallery\roses.jpg" />
+    <Content Include="img\gallery\still-life.jpg" />
+    <Content Include="img\icono-menu.png" />
+    <Content Include="img\logo-sin-fondo.png" />
+    <Content Include="img\tp.jpg" />
+    <Content Include="img\wheat2.jpg" />
+    <Content Include="Index.html" />
+    <Content Include="js\FancyBox\fancybox\blank.gif" />
+    <Content Include="js\FancyBox\fancybox\fancybox-x.png" />
+    <Content Include="js\FancyBox\fancybox\fancybox-y.png" />
+    <Content Include="js\FancyBox\fancybox\fancybox.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_close.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_loading.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_nav_left.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_nav_right.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_e.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_n.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_ne.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_nw.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_s.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_se.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_sw.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_shadow_w.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_title_left.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_title_main.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_title_over.png" />
+    <Content Include="js\FancyBox\fancybox\fancy_title_right.png" />
+    <Content Include="js\FancyBox\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="js\FancyBox\fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="js\FancyBox\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="js\FancyBox\fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="js\FancyBox\fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="js\FancyBox\jquery-1.4.3.min.js" />
+    <Content Include="css\Fancybox\1.png" />
+    <Content Include="css\Fancybox\2.png" />
+    <Content Include="css\Fancybox\3.png" />
+    <Content Include="css\Fancybox\4.png" />
+    <Content Include="css\FancyBox.css" />
+    <Content Include="css\Fancybox\fancybox\blank.gif" />
+    <Content Include="css\Fancybox\fancybox\fancybox-x.png" />
+    <Content Include="css\Fancybox\fancybox\fancybox-y.png" />
+    <Content Include="css\Fancybox\fancybox\fancybox.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_close.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_loading.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_nav_left.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_nav_right.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_e.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_n.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_ne.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_nw.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_s.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_se.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_sw.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_shadow_w.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_title_left.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_title_main.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_title_over.png" />
+    <Content Include="css\Fancybox\fancybox\fancy_title_right.png" />
+    <Content Include="css\Fancybox\fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="css\Fancybox\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="css\Flexbox.css" />
+    <Content Include="css\Form.css" />
+    <Content Include="css\Header.css" />
+    <Content Include="pages\Pages.html" />
+    <Content Include="css\Footer.css" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\Ajax.js" />
+    <Content Include="css\Accordion.css" />
+    <Content Include="css\Parallax.css" />
+    <Content Include="css\PhotoGallery.css" />
+    <Content Include="css\SPA.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60217</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60217/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

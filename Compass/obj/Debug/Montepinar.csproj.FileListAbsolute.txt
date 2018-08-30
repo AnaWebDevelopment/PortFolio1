@@ -1,0 +1,9 @@
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\bin\Montepinar.dll.config
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\bin\Montepinar.dll
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\bin\Montepinar.pdb
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\obj\Debug\Montepinar.csprojResolveAssemblyReference.cache
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\obj\Debug\Montepinar.csproj.CoreCompileInputs.cache
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\obj\Debug\Montepinar.dll
+C:\Users\anamu\Desktop\Proyectos\Portfolio\Montepinar\Montepinar\obj\Debug\Montepinar.pdb

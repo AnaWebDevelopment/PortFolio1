@@ -1,0 +1,37 @@
+﻿
+    .accordion {
+            background-color: #b4afa4;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 80%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-family: AustinText;
+            font-size: 22px;
+            transition: 0.4s;
+            margin-left: 10%;
+            border-radius: 10px;
+            border: solid 0.5px;
+        }
+
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background: whitesmoke;
+            overflow: hidden;
+            margin-left: 10%;
+            width: 80%;
+         }
+
+   /*Responsive*/
+    @media (max-width: 768px) {
+        .accordion, .panel{
+            width:80%;
+        }  
+    }
